@@ -12,7 +12,6 @@ import Footer from './components/Footer'
 function App() {
 
 
-  const [user, setUser] = useState('church')
 
 
   return (
