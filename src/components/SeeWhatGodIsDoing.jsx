@@ -2,9 +2,11 @@
 import { motion, useScroll, useMotionValueEvent } from "framer-motion";
 import { Heart, MessageCircle, ChevronLeft, ChevronRight } from "lucide-react";
 import { useRef, useState } from "react";
-import Img1 from "./images/img-1.png"
-import Img2 from "./images/img-2.png"
-import Img3 from "./images/img-3.png"
+import Img1 from "./images/img1.png"
+import Img2 from "./images/img2.png"
+import Img3 from "./images/img3.png"
+
+
 
 
 
