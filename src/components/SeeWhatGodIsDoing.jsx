@@ -9,9 +9,6 @@ import Img3 from "./images/img3.png"
 
 
 
-
-
-
 export default function SeeWhatGodIsDoing() {
     const gallery = [
         {
