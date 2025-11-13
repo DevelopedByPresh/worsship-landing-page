@@ -6,6 +6,10 @@ import Img1 from "./images/img-1.png"
 import Img2 from "./images/img-2.png"
 import Img3 from "./images/img-3.png"
 
+
+
+
+
 export default function SeeWhatGodIsDoing() {
     const gallery = [
         {
