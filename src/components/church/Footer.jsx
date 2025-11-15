@@ -5,6 +5,10 @@ import footerLogo from "../images/Header.png";
 
 
 
+
+
+
+
 export default function Footer() {
     return (
         <footer className="relative overflow-hidden bg-gradient-to-b from-[#FFFFFF] via-[#F5F2FF] to-[#D8D1FF]">
