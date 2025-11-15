@@ -1,7 +1,7 @@
 
-import { Instagram, Youtube, Send, Music2 } from "lucide-react";
+import { Instagram, Youtube, Send, Music2, Mail } from "lucide-react";
 import { motion } from "framer-motion";
-import footerLogo from "./images/foot.png";
+import footerLogo from "../images/foot.png";
 
 export default function Footer() {
     return (
@@ -18,31 +18,49 @@ export default function Footer() {
                     viewport={{ once: true }}
                     className="w-full max-w-5xl bg-gradient-to-b from-[#EDEBFF] to-[#FFFFFF] rounded-[32px] shadow-[0_0_60px_5px_rgba(83,55,252,0.25)] flex flex-col items-center text-center py-14 px-6"
                 >
-                    <h2 className="text-2xl md:text-3xl font-semibold text-[#1E0E62] leading-snug mb-4">
+                    <h2 className="text-2xl md:text-2xl font-bold text-[#3A3A40] leading-snug mb-4">
                         Join millions of believers building a <br className="hidden md:block" />
                         stronger faith community
                     </h2>
 
-                    <p className="text-gray-500 text-base md:text-lg mb-8">
-                        Stream, connect and grow in the word, anywhere you are.
+                    <p className="text-[12px] text-base text-[#5E5F6B] mb-8">
+                       Stream, connect and grow in the word, anywhere you are.
                     </p>
 
-                    <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
-                        <a href="#" className="transition-transform hover:scale-105">
-                            <img
-                                src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
-                                alt="Get it on Google Play"
-                                className="h-10 md:h-11 w-auto"
-                            />
-                        </a>
-                        <a href="#" className="transition-transform hover:scale-105">
-                            <img
-                                src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
-                                alt="Download on the App Store"
-                                className="h-10 md:h-11 w-auto"
-                            />
-                        </a>
-                    </div>
+
+
+
+     <div className="flex flex-col md:flex-row items-center md:items-stretch gap-4 md:gap-3 w-full max-w-xl mx-auto mt-2">
+
+    {/* INPUT FIELD */}
+    <div className="flex items-center bg-white rounded-full px-6 py-3 w-full shadow-md md:flex-1">
+        <Mail className="w-4 h-4 text-[#2B04DB] mr-3" />
+        <input
+            type="email"
+            placeholder="enter your email address"
+            className="outline-none flex-1 text-sm placeholder:text-[12px]"
+        />
+    </div>
+
+    {/* BUTTON */}
+    <button className="
+        bg-[#2B04DB] cursor-pointer text-white text-[12px]
+        px-14 py-3 rounded-full shadow-md
+        w-full md:w-auto
+        hover:bg-[#2C20C7] transition
+        md:h-full
+    ">
+        Join the WaitList
+    </button>
+
+    
+
+</div>
+  <p className="text-[#3A3A40] text-[10px] mt-3 font-small max-w-2xl mx-auto mb-8 leading-relaxed">
+    *Get early access, exclusive updates, and a special launch gift.
+        </p>
+
+                
                 </motion.div>
             </section>
 
@@ -117,7 +135,7 @@ export default function Footer() {
                 </div>
 
                 {/* Footer Bottom */}
-                <div className="flex flex-col md:flex-row items-center justify-between mt-12 border-t border-gray-200 pt-5">
+                <div className="flex flex-col md:flex-row items-center justify-between mt-12  pt-5">
                     <p className="text-sm text-[#2B04DB]">
                         ©2025 All rights reserved
                     </p>

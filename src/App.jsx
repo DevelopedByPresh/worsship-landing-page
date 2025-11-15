@@ -1,15 +1,11 @@
 import { useState } from 'react'
-
-import Header from './components/header'
-import Discover from './components/Discover'
-import Testimonials from './components/testimonials'
-import SeeWhatGodIsDoing from './components/SeeWhatGodIsDoing'
-import FAQ from './components/FAQ'
-import Footer from './components/Footer'
+ import ChurchLandingPage from './components/church/ChurchLandingPage'
+ import UserLandingPage from './components/user/UserLandingPage';
 
 
 
 function App() {
+    const [mode, setMode] = useState("church"); 
 
 
 
@@ -17,15 +13,22 @@ function App() {
   return (
     <>
 
+  <>
+      {mode === "church" ? (
+        <ChurchLandingPage mode={mode} setMode={setMode} />
+      ) : (
+        <UserLandingPage mode={mode} setMode={setMode} />
+      )}
+    </>
 
 
 
-    <Header/>
-    <Discover/>
-    <Testimonials/>
-    <SeeWhatGodIsDoing/>
-    <FAQ/>
-    <Footer/>
+
+
+
+
+
+  
 
 
 

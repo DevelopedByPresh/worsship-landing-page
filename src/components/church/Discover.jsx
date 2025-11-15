@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Play, MessageSquare, Users, Church, BookImage, MessageSquareText } from "lucide-react";
-import logo from './images/logo.png'
-import centerImage from "./images/Features.png"; 
+import logo from '../images/logo.png'
+import centerImage from "../images/Features.png"; 
 
 export default function Discover() {
   const features = [

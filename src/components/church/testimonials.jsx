@@ -2,7 +2,7 @@
 import { motion, useScroll, useMotionValueEvent } from "framer-motion";
 import { useRef, useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import works from "./images/works.png";
+import works from "../images/works.png";
 
 export default function Testimonials() {
     const testimonials = [
