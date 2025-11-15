@@ -5,7 +5,7 @@ import Discover from './Discover'
 import Testimonials from './testimonials'
 import SeeWhatGodIsDoing from './SeeWhatGodIsDoing'
 import FAQ from './FAQ'
-import Footer from './Footer'
+import Footer from './foot'
 
 
 
