@@ -7,7 +7,7 @@ import Features from './Features'
 import Benefits from './Benefits'
 import Testimonials from './Testimonial'
 import FAQ from './FAQ'
-import Footer from './footer'
+import Footer from './Footer'
 
 
 const ChurchLandingPage = ({ mode, setMode })=>{
