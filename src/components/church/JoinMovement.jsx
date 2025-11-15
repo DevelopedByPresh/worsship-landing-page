@@ -52,14 +52,14 @@ export default function JoinMovement() {
                             <Mail className="w-3 h-3 text-[#2B04DB] mr-3 " />
                             <input
                                 type="email"
-                                placeholder="Your official church mail address"
+                                placeholder="Your official church email address"
                                 className="outline-none flex-1 text-sm"
                             />
                         </div>
 
                         {/* BUTTON  */}
                         <button className="bg-[#2B04DB] cursor-pointer text-white text-[10px] px-5 py-3 rounded-full shadow-md w-full hover:bg-[#2C20C7] transition">
-                            Join Verified Churches on Worship
+                            Join Verified Churches on Worsship
                         </button>
 
                     </div>

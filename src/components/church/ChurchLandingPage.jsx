@@ -1,37 +1,31 @@
-import React from "react"
+import React from 'react'
 
-import Header from './header'
-import Discover from './Discover'
-import Testimonials from './testimonials'
-import SeeWhatGodIsDoing from './SeeWhatGodIsDoing'
+import Header from "./header"
+import Trusted from './Trusted'
+import JoinMovement from './JoinMovement'
+import Features from './Features'
+import Benefits from './Benefits'
+import Testimonials from './Testimonial'
 import FAQ from './FAQ'
-import Footer from './Footer'
+import Footer from './footer'
 
 
+const UserLandingPage = ({ mode, setMode })=>{
+    return(
+        <>
 
-
-const ChurchLandingPage = ({ mode, setMode })=>{
-   return (
-     <>
- 
- 
- 
- 
-     <Header  mode={mode} setMode={setMode}/>
-     <Discover/>
+     <Header   mode={mode} setMode={setMode}/>
+     <Trusted/>
+     <JoinMovement/>
+     <Features/>
+     <Benefits/>
      <Testimonials/>
-     <SeeWhatGodIsDoing/>
      <FAQ/>
      <Footer/>
- 
- 
- 
-  
-    
- 
-      
-     </>
-   )
+        
+        </>
+    )
 }
 
-export default ChurchLandingPage
+
+export default UserLandingPage

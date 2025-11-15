@@ -1,11 +1,11 @@
 import { useState } from 'react'
  import ChurchLandingPage from './components/church/ChurchLandingPage'
- import UserLandingPage from './components/user/UserLandingPage';
+ import UserLandingPage from './components/user/UsersLandingPage';
 
 
 
 function App() {
-    const [mode, setMode] = useState("church"); 
+    const [mode, setMode] = useState("user"); 
 
 
   return (

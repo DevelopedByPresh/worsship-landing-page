@@ -19,13 +19,13 @@ export default function FAQ() {
     },
     {
       id: 3,
-      question: "Can I receive request from my members?",
+      question: "Can I share testimonies?",
       answer:
         "Absolutely. You can share your testimonies and experiences with others to inspire and connect.",
     },
     {
       id: 4,
-      question: "Can I find my congregation?",
+      question: "Can I find my local church?",
       answer:
         "Absolutely. Worsship helps you locate and follow churches near or dear to you.",
     },
@@ -50,7 +50,7 @@ export default function FAQ() {
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className="text-2xl md:text-3xl font-semibold text-center text-[#2C2C31] mb-16"
+        className="text-2xl md:text-3xl font-semibold text-center text-[#1E0E62] mb-16"
 
       >
         Frequently asked Questions
