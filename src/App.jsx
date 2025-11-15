@@ -1,6 +1,6 @@
 import { useState } from 'react'
  import ChurchLandingPage from './components/church/ChurchLandingPage'
- import UserLandingPage from './components/user/UsersLandingPage';
+ import UserLandingPage from './components/user/UserLandingPage';
 
 
 
