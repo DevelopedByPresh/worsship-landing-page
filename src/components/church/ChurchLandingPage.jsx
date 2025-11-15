@@ -10,7 +10,7 @@ import FAQ from './FAQ'
 import Footer from './footer'
 
 
-const UserLandingPage = ({ mode, setMode })=>{
+const ChurchLandingPage = ({ mode, setMode })=>{
     return(
         <>
 
@@ -28,4 +28,4 @@ const UserLandingPage = ({ mode, setMode })=>{
 }
 
 
-export default UserLandingPage
+export default ChurchLandingPage

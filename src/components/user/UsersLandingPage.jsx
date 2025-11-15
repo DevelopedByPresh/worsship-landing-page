@@ -10,7 +10,7 @@ import Footer from './Footer'
 
 
 
-const ChurchLandingPage = ({ mode, setMode })=>{
+const UserLandingPage = ({ mode, setMode })=>{
    return (
      <>
  
@@ -34,4 +34,4 @@ const ChurchLandingPage = ({ mode, setMode })=>{
    )
 }
 
-export default ChurchLandingPage
+export default UserLandingPage
